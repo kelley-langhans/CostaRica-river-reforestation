@@ -7,7 +7,7 @@ Directory structure within the OSF project matches directory structure in R code
 
 Brief descriptors of code:
 
-#CR_InVEST_results_analysis.R
+# CR_InVEST_results_analysis.R
 Contains script for doing post-InVEST modeling analysis and figure creation
 Detailed description:
 1. Estimate how much only buffering rivers by 10m underestimates the amount of forest that would need to be added
@@ -18,17 +18,17 @@ Detailed description:
 6. Intersect with Indigenous territories
 7. Visualization
 
-#Riparian_buffer_scenario_generation.py
+# Riparian_buffer_scenario_generation.py
 Used to create riparian reforestation scenario landcover map, with 10 m of forest buffer around all rivers
 Modified from code of Jeffrey R. Smith, used with permission
 
-#sdr_rastercalc.py
+# sdr_rastercalc.py
 Used for performing calculations on baseline and scenario rasters of the InVEST SDR model
 Used to get differences between baseline and scenario and difference of difference rasters for uncertainty analysis
 Modified from code of Richard P. Sharp, used with permission
 
-#ndr_n_rastercalc.py
+# ndr_n_rastercalc.py
 Same as above, but for InVEST NDR model for N
 
-#ndr_p_rastercalc.py
+# ndr_p_rastercalc.py
 Same as above, but for InVEST NDR model for P
